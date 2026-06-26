@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akil Anthony — Clinical Research &amp; Statistical Genetics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- ── Navigation ── -->
+<nav class="site-nav">
+  <div class="nav-brand">Akil Anthony</div>
+  <ul class="nav-links">
+    <li><a href="#articles">Articles</a></li>
+    <li><a href="mailto:akilanthony19@gmail.com">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ── Hero ── -->
+<section class="hero">
+  <img src="images/hero_genetics.png" alt="Genetics research illustration" class="hero-img" />
+  <div class="hero-overlay">
+    <h1>Clinical Research<br />&amp; Statistical Genetics</h1>
+    <p>Bridging genomics, surgical outcomes, and predictive modeling — from bench to publication.</p>
+  </div>
+</section>
+
+<!-- ── About ── -->
+<section class="section" id="about">
+  <p class="section-label">The Author</p>
+  <div class="about-grid">
+    <div class="about-left">
+      <div class="profile-img-wrap">
+        <img src="akil_prof.png" alt="Akil Anthony" />
+      </div>
+      <div class="about-name">Akil Anthony</div>
+      <div class="about-title">Clinical Research Associate, New Brunswick, NJ</div>
+    </div>
+    <div class="about-right">
+      <p class="about-bio">
+        Rutgers University senior (B.A. Genetics, Minor in Data Science, GPA 3.89) with active roles in
+        clinical research, statistical genetics, and radiosurgery outcomes analysis. Working across
+        Morristown Medical Center's Department of Surgery, Jersey Shore University Medical Center's
+        Radiation Oncology division, and Rutgers' own statistical genetics lab, Akil bridges
+        wet-lab technique with rigorous quantitative modeling.
+      </p>
+      <p class="about-bio">
+        His work spans building predictive regression models for radiosurgery scheduling, developing
+        the open-source <strong>genmixr</strong> R package for genetic power analysis, and producing
+        first-author peer-reviewed publications. Every project is grounded in clinical data — TQIP,
+        NSQIP, ZAP-X treatment records — and aimed at improving patient outcomes and resource utilization.
+      </p>
+      <p class="about-github">GitHub: <a href="https://github.com/akilanthony19" target="_blank" rel="noopener" style="color:#1d4ed8;">github.com/akilanthony19</a></p>
+      <div class="tags">
+        <span class="tag">Statistical Genetics</span>
+        <span class="tag">R / ggplot2</span>
+        <span class="tag">Predictive Modeling</span>
+        <span class="tag">Radiosurgery Research</span>
+        <span class="tag">Survival Analysis</span>
+        <span class="tag">Clinical Datasets</span>
+        <span class="tag">Cox Models</span>
+        <span class="tag">genmixr</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Research Areas ── -->
+<section class="section" style="background:#f9fafb; padding-top:4rem; padding-bottom:4rem;">
+  <p class="section-label">Research Focus</p>
+  <h2 class="section-title">Areas of Work</h2>
+  <div class="research-grid">
+    <div class="research-card">
+      <img src="images/radiosurgery.png" alt="Radiosurgery technology" />
+      <div class="research-card-body">
+        <h3>Radiosurgery Outcomes</h3>
+        <p>Regression and predictive modeling for ZAP-X stereotactic radiosurgery scheduling and
+        treatment duration, reducing clinical scheduling errors and improving throughput across
+        200+ patient cohorts.</p>
+      </div>
+    </div>
+    <div class="research-card">
+      <img src="images/data_science.png" alt="Statistical data science" />
+      <div class="research-card-body">
+        <h3>Statistical Modeling</h3>
+        <p>Linear, logistic, and Cox proportional-hazard models applied to surgical and oncology
+        datasets. Specialty in feature engineering, model validation, and producing publication-ready
+        statistical reports with ggplot2.</p>
+      </div>
+    </div>
+    <div class="research-card">
+      <img src="images/clinical_research.png" alt="Clinical research laboratory" />
+      <div class="research-card-body">
+        <h3>Genetic &amp; Surgical Research</h3>
+        <p>Development of the <em>genmixr</em> R package for power and sample-size estimation in
+        genetic association studies, alongside trauma and surgical outcomes analysis using TQIP
+        and NSQIP national datasets.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Publications ── -->
+<section class="section publications" id="articles">
+  <p class="section-label">Peer-Reviewed Work</p>
+  <h2 class="section-title">Select Publications</h2>
+  <div class="pub-list">
+
+    <!-- Publication 1 -->
+    <div class="pub-card">
+      <div>
+        <span class="pub-badge">First Author · Cureus 2025</span>
+        <div class="pub-title">Regression Modeling of ZAP-X Treatment Time</div>
+        <div class="pub-authors">
+          Akil Anthony, Michael Chaga, Timothy Chen, Wenzheng Feng, Tingyu Wang, Darra Conti,
+          Jing Feng, Ma Rhudelyn Rodrigo, Patrick Pema, Elizabeth Luick, Daniel Thompson,
+          Joy Baldwin, Brielle Latif, Georgia Montone, Joseph Hanley, Shabbar Danish.
+          <em>Cureus</em>, Vol. 17(6), June 2025.
+        </div>
+        <p class="pub-abstract">
+          Developed a ridge regression predictive model for stereotactic radiosurgery treatment
+          duration using the ZAP-X gyroscopic system, analyzing 200 patient cases at Jersey Shore
+          University Medical Center. The study identified that setup time and gantry time are the
+          most influential variables affecting treatment duration, followed by number of beams,
+          isocenters, dose, and target count. The model substantially outperforms the ZAP-X
+          system's built-in duration estimates, which were found to consistently underestimate
+          actual treatment time.
+        </p>
+        <div class="pub-findings">
+          <strong>Key Result</strong>
+          Ridge Regression achieved R² = 0.984 with a mean absolute error of 1.94 minutes,
+          enabling accurate clinical scheduling and improved resource utilization.
+        </div>
+      </div>
+      <div>
+        <a class="pub-link" href="https://pubmed.ncbi.nlm.nih.gov/40718191/" target="_blank" rel="noopener">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          View on PubMed
+        </a>
+      </div>
+    </div>
+
+    <!-- Publication 2 -->
+    <div class="pub-card">
+      <div>
+        <span class="pub-badge">Co-Author · Cureus 2025</span>
+        <div class="pub-title">ZAP-X Stereotactic Radiosurgery: Initial Experience of 200 Patients</div>
+        <div class="pub-authors">
+          Timothy Chen, Patrick Pema, Michael Chaga, Wenzheng Feng, Tingyu Wang, Darra Conti,
+          Jing Feng, Akil Anthony, Ma Rhudelyn Rodrigo, Harshal Shah, Daniel Monahan,
+          Elizabeth Luick, Daniel Thompson, Joy Baldwin, Brielle Latif, Georgia Montone,
+          Joseph Hanley, Nitesh V. Patel, Shabbar Danish.
+          <em>Cureus</em>, Vol. 17(12), December 2025.
+        </div>
+        <p class="pub-abstract">
+          A prospective clinical investigation examining 200 patients who received ZAP-X gyroscopic
+          stereotactic radiosurgery for 374 intracranial lesions between October 2023 and January 2025.
+          The study evaluated workflow feasibility, dosimetric accuracy, patient safety, and
+          clinical outcomes across a diverse case mix including brain metastases, meningiomas,
+          trigeminal neuralgia, and acoustic neuromas. Average patient satisfaction ratings of
+          4.7–5.0 on a 5-point scale were reported.
+        </p>
+        <div class="pub-findings">
+          <strong>Key Results</strong>
+          97% local tumor control at 12 months for brain metastases · Gamma passing rate 98.5 ± 1.7%
+          · 75% recurrence-free survival for trigeminal neuralgia at 12 months
+        </div>
+      </div>
+      <div>
+        <a class="pub-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12757082/" target="_blank" rel="noopener">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          View on PMC
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── Experience ── -->
+<section class="section" id="experience">
+  <p class="section-label">Background</p>
+  <h2 class="section-title">Research &amp; Clinical Experience</h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-date">
+        <span class="timeline-org">Morristown Medical Center</span>
+        May 2026 – Ongoing
+      </div>
+      <div class="timeline-body">
+        <h3>Clinical Research Associate — Department of Surgery</h3>
+        <ul>
+          <li>Develop manuscripts, abstracts, and publications using TQIP, NSQIP, and institutional datasets</li>
+          <li>Analyze trauma and surgical outcomes to identify predictors of morbidity, mortality, and resource utilization</li>
+          <li>Assist with intraoperative specimen collection under research protocol compliance</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">
+        <span class="timeline-org">Rutgers University</span>
+        Sep 2025 – Ongoing
+      </div>
+      <div class="timeline-body">
+        <h3>Research Analyst / Developer — Statistical Genetics (genmixr)</h3>
+        <ul>
+          <li>Developed <em>genmixr</em> R package for power/sample-size estimation and error analysis in genetic studies</li>
+          <li>Built case-control and TDT analytical frameworks</li>
+          <li>First-author manuscript in preparation</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">
+        <span class="timeline-org">Jersey Shore University Medical Center</span>
+        Dec 2024 – Ongoing
+      </div>
+      <div class="timeline-body">
+        <h3>Research Analyst — Radiation Oncology</h3>
+        <ul>
+          <li>Analyzed clinical datasets evaluating ZAP-X radiosurgery treatment outcomes</li>
+          <li>Built linear, logistic, and Cox regression predictive models</li>
+          <li>Produced statistical reports and visualizations resulting in peer-reviewed publication</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">
+        <span class="timeline-org">Cancer Institute of NJ – Payne Lab</span>
+        Jan 2024 – Aug 2024
+      </div>
+      <div class="timeline-body">
+        <h3>Undergraduate Research Intern</h3>
+        <ul>
+          <li>Conducted PCR and genotyping experiments</li>
+          <li>Assisted in data collection and downstream analysis</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── Skills ── -->
+<section class="section" style="background:#f9fafb; padding-top:4rem; padding-bottom:4rem;">
+  <p class="section-label">Technical Expertise</p>
+  <h2 class="section-title">Skills &amp; Tools</h2>
+  <div class="skills-grid">
+    <div class="skill-group">
+      <h3>Programming</h3>
+      <p>R (advanced), Python, SQL (basic)</p>
+    </div>
+    <div class="skill-group">
+      <h3>Statistical Methods</h3>
+      <p>Linear &amp; logistic regression, Cox models, survival analysis, predictive modeling</p>
+    </div>
+    <div class="skill-group">
+      <h3>Data Visualization</h3>
+      <p>ggplot2, R Markdown, statistical reporting</p>
+    </div>
+    <div class="skill-group">
+      <h3>Tools &amp; Platforms</h3>
+      <p>SPSS, Excel, Git, R Markdown</p>
+    </div>
+    <div class="skill-group">
+      <h3>Data Engineering</h3>
+      <p>Data cleaning, feature engineering, model validation, TQIP/NSQIP datasets</p>
+    </div>
+    <div class="skill-group">
+      <h3>Certifications</h3>
+      <p>Aresty RURJ Peer Reviewer · Red Cross Adult First Aid / CPR / AED</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer class="site-footer">
+  <div class="footer-links">
+    <a class="footer-link" href="https://www.researchgate.net/profile/Akil-Anthony" target="_blank" rel="noopener" aria-label="ResearchGate">
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="36" height="36" rx="6" fill="#3b5bdb" opacity="0.15"/>
+        <text x="18" y="24" font-size="14" font-weight="800" fill="#93c5fd" text-anchor="middle" font-family="Arial">RG</text>
+      </svg>
+      <span>ResearchGate</span>
+    </a>
+    <a class="footer-link" href="https://www.linkedin.com/in/akil-anthony-28433a317/" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="36" height="36" rx="6" fill="#3b5bdb" opacity="0.15"/>
+        <text x="18" y="24" font-size="13" font-weight="800" fill="#93c5fd" text-anchor="middle" font-family="Arial">in</text>
+      </svg>
+      <span>LinkedIn</span>
+    </a>
+    <a class="footer-link" href="https://pubmed.ncbi.nlm.nih.gov/40718191/" target="_blank" rel="noopener" aria-label="PubMed">
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="36" height="36" rx="6" fill="#3b5bdb" opacity="0.15"/>
+        <text x="18" y="24" font-size="9" font-weight="800" fill="#93c5fd" text-anchor="middle" font-family="Arial">PubMed</text>
+      </svg>
+      <span>PubMed</span>
+    </a>
+  </div>
+  <p class="footer-copy">
+    &copy; 2026 Akil Anthony · New Brunswick, NJ ·
+    <a href="mailto:akilanthony19@gmail.com" style="color:#6b7280;">akilanthony19@gmail.com</a>
+  </p>
+</footer>
+
+</body>
+</html>
